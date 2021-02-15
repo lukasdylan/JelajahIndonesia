@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_fragment"
+        android:icon="@drawable/vector_home"
+        android:orderInCategory="1"
+        android:title="Beranda"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/explore_fragment"
+        android:icon="@drawable/vector_explore"
+        android:orderInCategory="2"
+        android:title="Eksplor"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_user"
+        android:icon="@drawable/vector_user"
+        android:orderInCategory="2"
+        android:visible="false"
+        android:title="Profil"
+        app:showAsAction="always" />
+
+</menu>

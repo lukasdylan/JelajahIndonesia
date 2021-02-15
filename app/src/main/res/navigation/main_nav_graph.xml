@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="id.lukasdylan.jelajahindonesia.fragment.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_to_explore_2"
+            app:destination="@id/explore_fragment_2" />
+
+        <action
+            android:id="@+id/action_to_detail_place"
+            app:destination="@id/detail_place_fragment" />
+
+        <action
+            android:id="@+id/action_to_location_permission"
+            app:destination="@id/location_permission_fragment" />
+
+    </fragment>
+
+    <dialog
+        android:id="@+id/location_permission_fragment"
+        android:name="id.lukasdylan.jelajahindonesia.fragment.LocationPermissionFragment"
+        tools:layout="@layout/fragment_dialog_location_permission" />
+
+    <fragment
+        android:id="@+id/explore_fragment"
+        android:name="id.lukasdylan.jelajahindonesia.fragment.ExploreFragment"
+        android:label="Explore"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/explore_fragment_2"
+        android:name="id.lukasdylan.jelajahindonesia.fragment.ExploreFragment"
+        android:label="Explore"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/detail_place_fragment"
+        android:name="id.lukasdylan.jelajahindonesia.fragment.DetailPlaceFragment"
+        tools:layout="@layout/fragment_detail_place">
+
+        <argument
+            android:name="xid"
+            app:argType="string"
+            app:nullable="true" />
+
+        <argument
+            android:name="title"
+            app:argType="string"
+            app:nullable="true" />
+
+        <action
+            android:id="@+id/action_to_map_detail"
+            app:destination="@id/map_detail_fragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/map_detail_fragment"
+        android:name="id.lukasdylan.jelajahindonesia.fragment.MapDetailFragment"
+        tools:layout="@layout/fragment_map_detail">
+
+        <argument
+            android:name="longitude"
+            android:defaultValue="0.0"
+            app:argType="float" />
+
+        <argument
+            android:name="latitude"
+            android:defaultValue="0.0"
+            app:argType="float" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/places_by_location_fragment"
+        android:name="id.lukasdylan.jelajahindonesia.fragment.PlacesByLocationFragment"
+        tools:layout="@layout/fragment_places_by_location">
+
+        <argument
+            android:name="title"
+            app:argType="string"
+            app:nullable="true" />
+
+        <argument
+            android:name="subtitle"
+            app:argType="string"
+            app:nullable="true" />
+
+        <argument
+            android:name="longitude"
+            android:defaultValue="0.0"
+            app:argType="float" />
+
+        <argument
+            android:name="latitude"
+            android:defaultValue="0.0"
+            app:argType="float" />
+
+    </fragment>
+
+    <action
+        android:id="@+id/action_to_places_by_location"
+        app:destination="@id/places_by_location_fragment" />
+
+</navigation>

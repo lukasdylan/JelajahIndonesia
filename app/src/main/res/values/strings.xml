@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Jelajah Indonesia</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoibHVrYXNkeWxhbiIsImEiOiJja2g3dDN0ZDQwYnRhMnJtNzV0Nm10NDdoIn0.5zF1A2kfeh-GKnpmyKNoPA</string>
+</resources>

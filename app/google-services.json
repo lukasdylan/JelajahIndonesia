@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "513128039772",
+    "firebase_url": "https://jelajah-indonesia-ce1d0.firebaseio.com",
+    "project_id": "jelajah-indonesia-ce1d0",
+    "storage_bucket": "jelajah-indonesia-ce1d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513128039772:android:97b78582ad2acbb5306d99",
+        "android_client_info": {
+          "package_name": "id.lukasdylan.jelajahindonesia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513128039772-fru3t9rsmm486ubadfr4rqeeqct3ak8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.lukasdylan.jelajahindonesia",
+            "certificate_hash": "5f7273986230349b873985ff25845f76b45cf2df"
+          }
+        },
+        {
+          "client_id": "513128039772-fs8rf40m75ijv6s028n02pgmupma053a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk4faY7aWLseSAQk3fnSZVMOHDjr4A8Z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513128039772-fs8rf40m75ijv6s028n02pgmupma053a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

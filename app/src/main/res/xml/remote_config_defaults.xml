@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>home_popular_destination</key>
+        <value>{
+            "title": "Objek Wisata Terpopuler",
+            "data": [
+            {
+            "id": "W122741626",
+            "name": "Candi Borobudur",
+            "image_url":
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Borobudur-Nothwest-view.jpg/400px-Borobudur-Nothwest-view.jpg"
+            },
+            {
+            "id": "Q183360",
+            "name": "Danau Toba",
+            "image_url":
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Toba_zoom.jpg/400px-Toba_zoom.jpg"
+            },
+            {
+            "id": "R7732161",
+            "name": "Taman Nasional Komodo",
+            "image_url":
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Komodo-dragon-1.jpg/400px-Komodo-dragon-1.jpg"
+            }
+            ]
+            }
+        </value>
+    </entry>
+</defaultsMap>
